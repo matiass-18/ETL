@@ -7,7 +7,7 @@ Created on Wed Feb 12 01:15:57 2025
 
 import pandas as pd
 
-df = pd.read_excel(r"C:\Users\Matias\Desktop\Uni\trabajosU\BigData\dbLimpia.xlsx")
+df = pd.read_excel(r"your_route")
 
 df["Fecha de Alquiler"] = pd.to_datetime(df["Fecha de Alquiler"], errors="coerce")
 df["Fecha de Entrega"] = pd.to_datetime(df["Fecha de Entrega"], errors="coerce")
