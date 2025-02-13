@@ -1,0 +1,3 @@
+Primero pasé la base de datos a un .xlsx (tablaOrganizada). Luego, con el código (dbLimpia.py), generé el archivo (dbLimpia.xlsx), eliminando los IDs que no tenían datos en ninguna de sus filas. También aproveché para darle un orden a los IDs, porque en un punto se perdía la secuencia incremental desde U000001 hasta el último registro. Así que le di el orden secuencial (desde Excel).
+
+Después, con el código (dbJson2.py), creé el archivo dbJson2.json para luego pasarlo a un motor de bases de datos NoSQL (aun no lo hago, maybe mañana).
